@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  workspace:
+    build: .
+#    volumes:
+#      - C:\Users\path\to\favorite\folder\:/mnt/:ro
+    tty: true
+    network_mode: "host"
