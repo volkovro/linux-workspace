@@ -39,7 +39,7 @@
 * `dpkg-reconfigure tzdata`, to set the desired time zone
 * Open any file with *vim* and run `:PlugInstall`
 
-*Your needs may be broader than mine. Edit the **Dockerfile** and **docker-compose.yml** according to your needs.
+*Your needs may be broader than mine. Edit the **Dockerfile** and **docker-compose.yml** according to your needs.*
 
 ***Caution! Adding apt-get upgrade to the RUN clause will break build***
 
