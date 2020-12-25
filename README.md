@@ -15,7 +15,7 @@
 ##### Dependencies:
  * WSL 2
  * Docker desktop
-
+ * *(Optional as the theme settings have been tested on it)* Windows Terminal
 
 #### How to use it:
 *Docker desktop should be running!*
