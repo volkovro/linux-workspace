@@ -8,21 +8,23 @@
 
 ##### Who needs it:
 
-* Devops engineers
+* Anyone who is tired of configuring WSL over and over again
 * Anyone accustomed to Linux cli-utilities but forced to work with windows
 * Anyone who cannot access hosts behind a VPN from WSL
+* Anyone who wants an example of a cross-platform work space
 
 ##### Dependencies:
- * WSL 2
- * Docker desktop
- * *(Optional as the theme settings have been tested on it)* Windows Terminal
+ * Docker desktop *(tested on WSL2)*
+    * [Download](https://www.docker.com/products/docker-desktop "docker.com")
+ *  Windows Terminal *(for theme)*
+    *  [Download](https://www.microsoft.com/ru-ru/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab "microsoft-store")
 
 #### How to use it:
 *Docker desktop should be running!*
 
 ###### Git clone to your favorite empty folder or download and extract the archive into it
 
-###### Open PowerShell:
+###### Open Windows Terminal with PowerShell:
 
 `cd` \path\to\you\favorite\empty\folder
 
