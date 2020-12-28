@@ -22,7 +22,7 @@
 #### How to use it:
 *Docker desktop should be running!*
 
-###### Git clone to your favorite empty folder or download and extract the archive into it
+###### [Git clone](https://github.com/Volkov-R-Net/LinuxWorkspace.git "https") to your favorite empty folder or [download and extract the archive](https://github.com/Volkov-R-Net/LinuxWorkspace/archive/main.zip "main.zip") into it
 
 ###### Open Windows Terminal with PowerShell:
 
