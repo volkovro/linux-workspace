@@ -1,4 +1,4 @@
-#### In VScode, you can use this container as a terminal. It is very comfortable.
+#### In VSCode, you can use this container as a terminal. It is very comfortable.
 
 * Run Visual Studio Code
 * Press `CMD/CTRL + SHIFT + P` and write in window `settings.json`
