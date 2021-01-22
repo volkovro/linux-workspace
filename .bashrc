@@ -13,6 +13,10 @@
 #export PATH
 
 # Base16 Shell
+COLOR="$HOME/.config/base16-shell/scripts/base16-material.sh"
+$COLOR
+
+
 BASE16_SHELL="$HOME/.config/base16-shell/"
 
 [ -n "$PS1" ] && \
