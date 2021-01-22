@@ -26,7 +26,7 @@
 
 ###### Open Windows Terminal with PowerShell:
 
-`cd` \path\to\you\favorite\empty\folder
+`cd` \path\to\you\favorite\folder
 
 `docker-compose up -d`
 
