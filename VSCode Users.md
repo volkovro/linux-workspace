@@ -3,7 +3,7 @@
 * Run Visual Studio Code
 * Press `CMD/CTRL + SHIFT + P` and write in window `settings.json`
 * Add in your `setting.json' following lines:
-    * "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    * "terminal.integrated.shellArgs.windows": ["cd C:\\path\\to\\you\\favorite\\folder\\; (docker-compose up -d); docker exec -it foldername_workspace_1 bash"]
+    * `"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",`
+    * `"terminal.integrated.shellArgs.windows": ["cd C:\\path\\to\\you\\favorite\\folder\\; (docker-compose up -d); docker exec -it foldername_workspace_1 bash"]`
 
 *Caution! Don't forget to change `C:\\path\\to\\you\\favorite\\folder\\` to real path to yor folder with **docker-compose.yml** file*
