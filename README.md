@@ -34,9 +34,9 @@
 
 `docker exec -it` (copy and paste the name or id from the command output above) `bash`
 
-##### After installation, inside container run:
-* `bash /root/.config/base16-shell/scripts/`theme_name, if don't like the default theme
-* `dpkg-reconfigure tzdata`, to set the desired time zone
+##### After installation, inside container:
+* Change `$HOME/.config/base16-shell/scripts/base16-material.sh` in **.bashrc**, if don't like the default theme
+* Run `dpkg-reconfigure tzdata`, to set the desired time zone
 * Open any file with *vim* and run `:PlugInstall`
 
 *Your needs may be broader than mine. Edit the **Dockerfile** and **docker-compose.yml** according to your needs.*
