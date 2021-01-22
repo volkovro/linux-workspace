@@ -4,7 +4,7 @@ LABEL vendor="Volkov-R-Net"
 
 RUN apt-get update && \
     apt-get install -y \
-    curl ssh git wget sshpass vim-runtime vim-common tmux && \
+    curl ssh git wget sshpass vim-runtime vim-common tmux jq && \
     git clone https://github.com/chriskempson/base16-shell.git /root/.config/base16-shell && chmod +x /root/.config/base16-shell/scripts/* && \
     bash /root/.config/base16-shell/scripts/base16-material.sh && \
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim && \
