@@ -17,7 +17,7 @@ set termguicolors
 "colorscheme base16-macintosh
 "colorscheme base16-isotope
 "colorscheme base16-nord
-colorscheme base16-material
+silent! colorscheme base16-material
 "colorscheme base16-pico
 "colorscheme base16-spacemacs
 
