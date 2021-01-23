@@ -14,6 +14,6 @@ RUN apt-get update && \
     wget -q https://golang.org/dl/go1.15.7.linux-amd64.tar.gz -P /root/ && tar -C /usr/local -xzf /root/go1.15.7.linux-amd64.tar.gz && \
     pip install --upgrade pip && \
     pip install ansible && \
-    apt-get clean && apt-get autoremove -y && rm -rf /var/lib/apt/lists/*
+    apt-get clean && apt-get autoremove -y && rm -rf /var/lib/apt/lists/* /root/go1.15.7.linux-amd64.tar.gz
 
 WORKDIR /mnt
