@@ -1,4 +1,5 @@
 *.yml
 .dockerignore
+.gitignore
 *.md
 Dockerfile
