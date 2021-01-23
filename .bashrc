@@ -16,6 +16,7 @@
 COLOR="$HOME/.config/base16-shell/scripts/base16-material.sh"
 $COLOR
 
+PATH="$PATH:/usr/local/go/bin"
 
 BASE16_SHELL="$HOME/.config/base16-shell/"
 
