@@ -35,7 +35,7 @@
 `docker exec -it` (copy and paste the name or id from the command output above) `bash`
 
 ##### After installation, inside container:
-* Change `$HOME/.config/base16-shell/scripts/base16-material.sh` in **.bashrc**, if don't like the default theme
+* Change `$HOME/.config/base16-shell/scripts/base16-macintosh.sh` in **.bashrc**, if don't like the default theme
 * Run `dpkg-reconfigure tzdata`, to set the desired time zone
 
 *Your needs may be broader than mine. Edit the **Dockerfile** and **docker-compose.yml** according to your needs.*
