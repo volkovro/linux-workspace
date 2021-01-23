@@ -1,6 +1,6 @@
 FROM  python:3.9.0-slim
 
-LABEL vendor="Volkov-R-Net"
+LABEL vendor="rvolkov"
 
 ADD ./ /root/
 
