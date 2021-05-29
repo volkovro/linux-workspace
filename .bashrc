@@ -13,7 +13,7 @@
 #export PATH
 
 # Base16 Shell
-COLOR="/root/.config/base16-shell/scripts/base16-macintosh.sh"
+COLOR="/root/.config/base16-shell/scripts/base16-material-palenight.sh"
 $COLOR
 
 PATH="$PATH:/usr/local/go/bin"
