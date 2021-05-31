@@ -1,6 +1,7 @@
 # Linux workspace for Windows
 
 ###### if for some reason you have to work in an unfamiliar environment - this can help you
+###### [Installation instructions as "Visual Studio Code" terminal](https://github.com/Volkov-R-Net/linux-workspace/blob/main/For%20VSCode%20Users.md)
 
 ~~thanks can be sent to the e-mail in the profile~~
 
