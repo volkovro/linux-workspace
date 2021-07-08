@@ -2,6 +2,8 @@ FROM oraclelinux:8
 
 LABEL vendor="volkov-r-net"
 
+ENV LANG=en_US.utf8
+
 ADD ./ /root/
 
 RUN dnf upgrade -y && \
@@ -16,7 +18,6 @@ RUN dnf upgrade -y && \
     pip3 install -U pip && \
     pip install ansible && \
     wget -q -O- https://sourceforge.net/projects/sshpass/files/latest | tar -xz && ./sshpass-*/configure && make && make install && rm -rf sshpass-* && \
-    export LANG=en_US.utf8 && \
     dnf clean all
 
 WORKDIR /mnt
