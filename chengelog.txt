@@ -1,0 +1,3 @@
+17.05.2022
+Update go version, added completion for bash, helm, kubectl and helm, kubectl app.
+Chenge .tmux-conf and .vimrc, for fix theme bugs on MacOs Terminal
