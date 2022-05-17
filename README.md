@@ -41,6 +41,5 @@
 
  ***Git changes the newline character by default, which can cause problems when building the image. Comment on anything Vim-related, or study [THIS](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration "git-scm.com") and take action.***
 
-##
-
+---
 License MIT©
